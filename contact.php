@@ -4,86 +4,34 @@
 <head>
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
-    <title>Contacts - Dogma - Responsive Architecture Template</title>
+    <title>Raul Balleza - Team</title>
     <meta name="viewport"
         content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
-    <!--=============== css  ===============-->
-    <link type="text/css" rel="stylesheet" href="css/reset.css">
-    <link type="text/css" rel="stylesheet" href="css/plugins.css">
-    <link type="text/css" rel="stylesheet" href="css/style.css">
-    <link type="text/css" rel="stylesheet" href="css/yourstyle.css">
-    <!--=============== favicons ===============-->
-    <link rel="shortcut icon" href="images/favicon.ico">
+    <?php include_once './template/css.html' ?>
 </head>
 
 <body>
-    <div class="loader">
-        <div class="tm-loader">
-            <div id="circle"></div>
-        </div>
-    </div>
+    <?php include_once './template/loader.html' ?>
     <!--================= main start ================-->
     <div id="main">
         <!--=============== header ===============-->
-        <header>
-            <!-- Nav button-->
-            <div class="nav-button">
-                <span class="nos"></span>
-                <span class="ncs"></span>
-                <span class="nbs"></span>
-            </div>
-            <!-- Nav button end -->
-            <!-- Logo-->
-            <div class="logo-holder">
-                <a href="index.html" class="ajax"><img src="images/logo.png" alt=""></a>
-            </div>
-            <!-- Logo  end-->
-            <!-- Header  title -->
-            <div class="header-title">
-                <h2><a class="ajax" href="#"></a></h2>
-            </div>
-            <!-- Header  title  end-->
-            <!-- share -->
-            <div class="show-share isShare">
-                <span>Share</span>
-                <i class="fa fa-chain-broken"></i>
-            </div>
-            <!-- share  end-->
-        </header>
+        <?php include_once './template/header.html' ?>
         <!-- Header   end-->
         <!--=============== wrapper ===============-->
         <div id="wrapper">
             <!--=============== content-holder ===============-->
             <div class="content-holder elem scale-bg2 transition3">
                 <!-- Page title -->
-                <div class="dynamic-title">Contacts </div>
+                <div class="dynamic-title">Contact</div>
                 <!-- Page title  end-->
-                <!--  Navigation -->
-                <div class="nav-overlay"></div>
-                <div class="nav-inner isDown">
-                    <nav>
-                        <ul>
-                            <li class="subnav">
-                                <a href="index.html" class="ajax">Home</a>
-                            </li>
-                            <li><a href="about.html" class="ajax"> About </a></li>
-                            <li class="subnav">
-                                <a href="portfolio.html" class="ajax active">Work</a>
-                            </li>
-                            <li><a href="services.html" class="ajax">Services</a></li>
-                            <li><a href="contact.html" class="ajax">Contact</a></li>
-                            <li><a href="team.html">Team</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <!--  Navigation end -->
+                <?php include_once './template/navigation.html' ?>
                 <!--  Content -->
                 <div class="content full-height">
-                    <!--  wrapper-inner  -->
-                    <div class="wrapper-inner">
+<!--  wrapper-inner  -->
+<div class="wrapper-inner">
                         <!--  align-content  -->
                         <div class="align-content">
                             <section>
@@ -150,45 +98,18 @@
                             <div id="map-canvas"></div>
                         </div>
                     </div>
-                    <!--  fixed-column end-->
+                    <!--  fixed-column end-->                    
+                    <!--  Content  end -->
                 </div>
-                <!--  Content  end -->
-                <!-- share  -->
-                <div class="share-inner">
-                    <div class="share-container  isShare" data-share="['facebook','googleplus','twitter','linkedin']">
-                    </div>
-                    <div class="close-share"></div>
-                </div>
-                <!-- share end -->
+                <?php include_once './template/share.html' ?>
             </div>
             <!-- Content holder  end -->
         </div>
         <!-- wrapper end -->
-        <!--=============== footer ===============-->
-        <footer>
-            <div class="policy-box">
-                <span>&#169; Dogma 2015 / All rights reserved. </span>
-            </div>
-            <div class="footer-social">
-                <ul>
-                    <li><a href="#" target="_blank"><i class="fa fa-facebook"></i><span>facebook</span></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-twitter"></i><span>twitter</span></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-instagram"></i><span>instagram</span></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-pinterest"></i><span>pinterest</span></a></li>
-                    <li><a href="#" target="_blank"><i class="fa fa-tumblr"></i><span>tumblr</span></a></li>
-                </ul>
-            </div>
-        </footer>
-        <!-- footer end -->
+        <?php include_once './template/footer.html' ?>
     </div>
     <!-- Main end -->
-    <!--=============== google map ===============-->
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" type="text/javascript"></script>
-    <!--=============== scripts  ===============-->
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src="js/plugins.js"></script>
-    <script type="text/javascript" src="js/core.js"></script>
-    <script type="text/javascript" src="js/scripts.js"></script>
+    <?php include_once './template/scripts.html' ?>
 </body>
 
 </html>
