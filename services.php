@@ -5,8 +5,7 @@
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
     <title>Raul Balleza - Team</title>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -30,7 +29,7 @@
                 <?php include_once './template/navigation.html' ?>
                 <!--  Content -->
                 <div class="content full-height">
-                <section>
+                    <section>
                         <!--  container -->
                         <div class="container">
                             <!--  services-holder -->
@@ -90,7 +89,7 @@
                             <!-- services-holder  end-->
                         </div>
                         <!-- Container-->
-                    </section>                    <!--  Content  end -->
+                    </section> <!--  Content  end -->
                 </div>
                 <?php include_once './template/share.html' ?>
             </div>

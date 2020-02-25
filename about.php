@@ -5,8 +5,7 @@
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
     <title>Raul Balleza - Team</title>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -30,7 +29,7 @@
                 <?php include_once './template/navigation.html' ?>
                 <!--  Content -->
                 <div class="content full-height">
-                    
+
                     <!--  fixed-column -->
                     <div class="fixed-column">
                         <div class="bg" style="background-image:url(images/bg/1.jpg)"></div>
@@ -48,8 +47,7 @@
                                         which don't look even slightly believable. If you are going to use a passage of
                                         Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the
                                         middle of text.</p>
-                                    <a href="portfolio.html" class="ajax btn anim-button   trans-btn   transition  fl-l"
-                                        target="_blank"><span>Our projects</span><i class="fa fa-eye"></i></a>
+                                    <a href="portfolio.html" class="ajax btn anim-button   trans-btn   transition  fl-l" target="_blank"><span>Our projects</span><i class="fa fa-eye"></i></a>
                                 </div>
                             </section>
                         </div>

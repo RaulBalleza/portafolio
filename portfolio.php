@@ -5,8 +5,7 @@
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
     <title>Raul Balleza - Portfolio</title>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -53,8 +52,7 @@
                                     <div class="box-item">
                                         <div class="wh-info-box">
                                             <div class="wh-info-box-inner at">
-                                                <a href="./portfolio/WebGL/BrazoRobot/MultiJointModel.html"
-                                                    class="ajax">
+                                                <a href="./portfolio/WebGL/BrazoRobot/MultiJointModel.html" class="ajax">
                                                     Brazo Robótico
                                                 </a>
                                                 <span class="folio-cat">WebGL</span>
@@ -88,8 +86,7 @@
                                     <div class="box-item">
                                         <div class="wh-info-box">
                                             <div class="wh-info-box-inner at">
-                                                <a
-                                                    href="./portfolio/WebGL/CuboAnimadoLuz/PointLightedCube_animation.html">
+                                                <a href="./portfolio/WebGL/CuboAnimadoLuz/PointLightedCube_animation.html">
                                                     Cubo Animado con Luces
                                                 </a>
                                                 <span class="folio-cat">WebGL</span>
@@ -157,8 +154,7 @@
                                     <div class="box-item">
                                         <div class="wh-info-box">
                                             <div class="wh-info-box-inner at">
-                                                <a href="./portfolio/WebDev/Factorial_Fibonnaci/index.html"
-                                                    target="_blank">
+                                                <a href="./portfolio/WebDev/Factorial_Fibonnaci/index.html" target="_blank">
                                                     Calcuar Factorial y Fibonnaci
                                                 </a>
                                                 <span class="folio-cat">HTML + CSS + JS</span>
@@ -192,8 +188,7 @@
                                     <div class="box-item">
                                         <div class="wh-info-box">
                                             <div class="wh-info-box-inner at">
-                                                <a href="http://raulballeza.pythonanywhere.com/welcome/default/index"
-                                                    target="_blank">
+                                                <a href="http://raulballeza.pythonanywhere.com/welcome/default/index" target="_blank">
                                                     Sistema de pagos
                                                 </a>
                                                 <span class="folio-cat">Web2Py</span>

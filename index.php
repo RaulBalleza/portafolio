@@ -5,8 +5,7 @@
     <!--=============== basic  ===============-->
     <meta charset="UTF-8">
     <title>Raul Balleza - Home</title>
-    <meta name="viewport"
-        content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="robots" content="index, follow" />
     <meta name="keywords" content="" />
     <meta name="description" content="" />
@@ -48,8 +47,7 @@
                         <div class="enter-wrap-holder">
                             <div class="enter-wrap">
                                 <h3> Dogma <br> Architecture <br> Studio</h3>
-                                <a href="portfolio.php"
-                                    class="btn anim-button   trans-btn   transition  fl-l"><span>Enter
+                                <a href="portfolio.php" class="btn anim-button   trans-btn   transition  fl-l"><span>Enter
                                         site</span><i class="fa fa-long-arrow-right"></i></a>
                             </div>
                         </div>
